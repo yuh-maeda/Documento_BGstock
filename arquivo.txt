@@ -1,0 +1,15 @@
+- Login: Usuário acessa o sistema com suas credenciais.
+- Criar, editar, excluir e visualizar dados de estoque
+- : Usuário gerencia a quantidade e localização dos produtos no estoque.
+- Adicionar, editar, excluir e visualizar dados de produtos: Usuário cadastra e mantém o catálogo de produtos.
+- Criar, modificar, cancelar e visualizar dados de pedidos: Usuário registra novos pedidos e acompanha pedidos existentes.
+- Adicionar, pesquisar, excluir fornecedores: Usuário gerencia o cadastro de empresas fornecedoras.
+- Ver dashboard: Usuário visualiza um painel com resumo das informações principais do sistema.
+- Visualizar alertas de estoque: Usuário vê avisos de produtos com estoque baixo ou zerado.
+- Gerenciar relatórios: Usuário gera e exporta relatórios de vendas, estoque e pedidos.
+
+- Processamento de pedidos: A API externa envia dados para processar pedidos automaticamente no sistema.
+- Gerenciamento de fornecedores: A API externa integra dados de fornecedores com o sistema.
+
+- Criar, modificar... pedidos - INCLUDE Processamento de pedidos: Toda vez que o usuário mexe em um pedido, o sistema obrigatoriamente executa o processamento desse pedido.
+- Adicionar, pesquisar... fornecedores - INCLUDE Gerenciamento de fornecedores: Toda vez que o usuário mexe no cadastro de fornecedores, o sistema obrigatoriamente executa a lógica de gerenciamento.
